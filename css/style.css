@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+
+body {
+    font-family: "Hahmlet", serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color:white;
+    font-size: 10px;
+}
+
+#clock {
+    font-weight: bold;
+    font-size: 5rem;
+}
 .hidden {
     display: none;
+}
+#weather {
+    font-size: 1.1rem;
+}
+.hello-wrap{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 50px;
+}
+#login-form input:first-child{
+    padding:20px;
+    outline: none;
+    border:none;
+    border-bottom:3px solid #fff;
+    box-sizing: border-box;
+    width: 300px;
+    background: transparent;
+    font-size: 1.6rem;
+    color:#fff;
+}
+#login-form input:first-child::placeholder {
+    color:#fff;
+}
+
+#login-form input:last-child{
+    border: 0;
+    background: transparent;
+    color:#fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.2s;
+    padding:20px;
+}
+#login-form input:last-child:hover{
+    border-bottom: 3px solid #fff;
+}
+#greeting {
+    font-size: 3rem;
+}
+.center-wrap{
+    display: flex;
+    justify-content: center;
+}
+.left-wrap{
+    width: 60%;
+    text-align: center;
+}
+#quote {
+    font-size: 1.3rem;
+    padding-top: 25px;
+}
+.right-wrap{
+    width: 40%;
+    text-align: left;   
+}
+.right-wrap h1{
+    font-size: 2rem;
+}
+#todo-form input {
+    border:0;
+    background: transparent;
+    outline:0;
+    border-bottom: 1px solid #fff;
+    width: 300px;
+    padding: 20px;
+    font-weight: bold;
+    color:#fff;
+    font-size: 1.6rem;
+}
+#todo-form input::placeholder {
+    color:#fff;
+}
+#todo-list {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    box-sizing: border-box;
+}
+#todo-list li {
+    padding: 4px 0;
+}
+#todo-list li::marker{
+    color:tomato;
+}
+
+#todo-list li button {
+    border:0;
+    background: transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 15px;
 }

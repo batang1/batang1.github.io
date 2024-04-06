@@ -6,7 +6,11 @@ const images = [
 
 const chosenImages = images[Math.floor(Math.random() * images.length)];
 
-const bgImage = document.createElement("img");
-bgImage.src = `img/${chosenImages}`;
+// const bgImage = document.createElement("img");
+// bgImage.src = `img/${chosenImages}`;
 
-document.body.appendChild(bgImage);
+// document.body.appendChild(bgImage);
+
+const bodyImages = document.body.style.backgroundImage = `url('img/${chosenImages}')`;
+
+console.log("chosenImages", chosenImages)
